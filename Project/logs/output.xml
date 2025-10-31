@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-10-31T11:56:00.594366" rpa="false" schemaversion="5">
+<suite id="s1" name="Teste" source="c:\Users\KaikyTf-Note\OneDrive\Arquivos\Arquivos pessoais\Cursos\Robot Framework - Unoeste\vs - dia2\teste.robot">
+<test id="s1-t1" name="Teste 01" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2025-10-31T11:56:00.825564" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
+<msg time="2025-10-31T11:56:00.887743" level="WARN">The geckodriver version (0.34.0) detected in PATH at C:\Users\KaikyTf-Note\AppData\Local\Programs\Python\Python314\Scripts\geckodriver.exe might not be compatible with the detected firefox version (144.0.2); currently, geckodriver 0.36.0 is recommended for firefox 144.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-10-31T11:56:00.825243" elapsed="5.230831"/>
+</kw>
+<kw name="Abrir site" owner="keywords">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:06.057679" level="INFO">Opening url 'https://www.rockauto.com/'</msg>
+<arg>${site}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2025-10-31T11:56:06.057342" elapsed="3.703467"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-10-31T11:56:09.761177" elapsed="0.280360"/>
+</kw>
+<status status="PASS" start="2025-10-31T11:56:06.056832" elapsed="3.985092"/>
+</kw>
+<kw name="Rolar e clicar na marca" owner="keywords">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>locator=//a[@id='navhref[29]']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2025-10-31T11:56:10.043181" elapsed="0.298358"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:10.342146" level="INFO">Clicking element '//td[@id='navicon[48]']//a'.</msg>
+<arg>locator=//td[@id='navicon[48]']//a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:10.341839" elapsed="0.137255"/>
+</kw>
+<status status="PASS" start="2025-10-31T11:56:10.042584" elapsed="0.436879"/>
+</kw>
+<kw name="Selecionar ano e modelo" owner="keywords">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=//a[@id='navhref[452]']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-10-31T11:56:10.480562" elapsed="0.276792"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:10.758161" level="INFO">Clicking element '//a[@id='navhref[452]']'.</msg>
+<arg>locator=//a[@id='navhref[452]']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:10.757692" elapsed="0.091256"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=//a[@id='navhref[565]']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-10-31T11:56:10.849306" elapsed="0.219159"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:11.069191" level="INFO">Clicking element '//a[@id='navhref[565]']'.</msg>
+<arg>locator=//a[@id='navhref[565]']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:11.068807" elapsed="0.088493"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=//a[@id='navhref[594]']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-10-31T11:56:11.157595" elapsed="0.213489"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:11.371696" level="INFO">Clicking element '//a[@id='navhref[594]']'.</msg>
+<arg>locator=//a[@id='navhref[594]']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:11.371405" elapsed="0.072392"/>
+</kw>
+<status status="PASS" start="2025-10-31T11:56:10.480083" elapsed="0.963929"/>
+</kw>
+<kw name="Selecionar pecas" owner="keywords">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=//a[@id='navhref[605]']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-10-31T11:56:11.445099" elapsed="0.214965"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:11.660655" level="INFO">Clicking element '//a[@id='navhref[605]']'.</msg>
+<arg>locator=//a[@id='navhref[605]']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:11.660359" elapsed="0.079314"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=//a[@id='navhref[629]']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-10-31T11:56:11.739970" elapsed="0.418935"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:12.159478" level="INFO">Clicking element '//a[@id='navhref[629]']'.</msg>
+<arg>locator=//a[@id='navhref[629]']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:12.159212" elapsed="0.084914"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=//span[normalize-space()='Add to Cart']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-10-31T11:56:12.244437" elapsed="0.626321"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:12.871537" level="INFO">Clicking element '//span[normalize-space()='Add to Cart']'.</msg>
+<arg>locator=//span[normalize-space()='Add to Cart']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:12.871164" elapsed="0.089715"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-10-31T11:56:13.961936" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-10-31T11:56:12.961223" elapsed="1.001067"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:13.962838" level="INFO">Clicking element '//form[@id='frmlistings[677]']//div//div//img[@title='Close']'.</msg>
+<arg>locator=//form[@id='frmlistings[677]']//div//div//img[@title='Close']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:13.962525" elapsed="0.124181"/>
+</kw>
+<kw name="Reload Page" owner="SeleniumLibrary">
+<doc>Simulates user reloading page.</doc>
+<status status="PASS" start="2025-10-31T11:56:14.087013" elapsed="2.307583"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=//a[@id='navhref[1036]']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-10-31T11:56:16.394870" elapsed="2.161081"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:18.556520" level="INFO">Clicking element '//a[@id='navhref[1036]']'.</msg>
+<arg>locator=//a[@id='navhref[1036]']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:18.556227" elapsed="0.072670"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=//span[normalize-space()='Add to Cart']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-10-31T11:56:18.629189" elapsed="0.213434"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:18.843250" level="INFO">Clicking element '//span[normalize-space()='Add to Cart']'.</msg>
+<arg>locator=//span[normalize-space()='Add to Cart']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:18.842926" elapsed="0.077385"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-10-31T11:56:19.921406" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-10-31T11:56:18.920674" elapsed="1.001020"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:19.922228" level="INFO">Clicking element '//img[@title='Close']'.</msg>
+<arg>locator=//img[@title='Close']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:19.921927" elapsed="0.100981"/>
+</kw>
+<status status="PASS" start="2025-10-31T11:56:11.444631" elapsed="8.578493"/>
+</kw>
+<kw name="Preencher form" owner="keywords">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>locator=//td[@class='vtop tacenter']//span[contains(text(),'Learn More')]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2025-10-31T11:56:20.024192" elapsed="0.265308"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:20.290094" level="INFO">Typing text 'Kaiky Trevisan Fernandes' into text field '//input[@id='ship_sidecart[name]']'.</msg>
+<arg>locator=//input[@id='ship_sidecart[name]']</arg>
+<arg>text=Kaiky Trevisan Fernandes</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:20.289798" elapsed="0.063782"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:20.354211" level="INFO">Typing text 'Rua Jose Bongiovani, 700' into text field '//input[@id='ship_sidecart[address1]']'.</msg>
+<arg>locator=//input[@id='ship_sidecart[address1]']</arg>
+<arg>text=Rua Jose Bongiovani, 700</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:20.353882" elapsed="0.022102"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:20.376741" level="INFO">Typing text 'Cidade Universitária Presidente Prudente' into text field '//input[@id='ship_sidecart[address2]']'.</msg>
+<arg>locator=//input[@id='ship_sidecart[address2]']</arg>
+<arg>text=Cidade Universitária Presidente Prudente</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:20.376332" elapsed="0.026451"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:20.403577" level="INFO">Typing text 'Presidente Prudente' into text field '//input[@id='ship_sidecart[city]']'.</msg>
+<arg>locator=//input[@id='ship_sidecart[city]']</arg>
+<arg>text=Presidente Prudente</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:20.403119" elapsed="0.022312"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:20.426043" level="INFO">Typing text '19050-680' into text field '//input[@id='ship_sidecart[postcode]']'.</msg>
+<arg>locator=//input[@id='ship_sidecart[postcode]']</arg>
+<arg>text=19050-680</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:20.425745" elapsed="0.023262"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:20.449620" level="INFO">Clicking element '//input[@id='btncalcshipping_sidecart']'.</msg>
+<arg>locator=//input[@id='btncalcshipping_sidecart']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:20.449338" elapsed="0.074735"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-10-31T11:56:21.525263" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-10-31T11:56:20.524426" elapsed="1.001244"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:21.526181" level="INFO">Clicking element '//span[@id='tablabel[cart]']'.</msg>
+<arg>locator=//span[@id='tablabel[cart]']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:21.525907" elapsed="0.100677"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>locator=//input[@id='ship_maincart[name]']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2025-10-31T11:56:21.626905" elapsed="0.264038"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:21.891524" level="INFO">Typing text 'SP' into text field '//input[@id='ship_maincart[state]']'.</msg>
+<arg>locator=//input[@id='ship_maincart[state]']</arg>
+<arg>text=SP</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:21.891226" elapsed="0.028056"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:21.919856" level="INFO">Typing text '+5518999999999' into text field '//input[@id='ship_maincart[tel]']'.</msg>
+<arg>locator=//input[@id='ship_maincart[tel]']</arg>
+<arg>text=+5518999999999</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:21.919546" elapsed="0.020039"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:21.940204" level="INFO">Typing text 'teste.teste@gmail.com' into text field '//input[@id='ship_maincart[email]']'.</msg>
+<arg>locator=//input[@id='ship_maincart[email]']</arg>
+<arg>text=teste.teste@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:21.939884" elapsed="0.020613"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-10-31T11:56:23.961588" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-10-31T11:56:21.960900" elapsed="2.001164"/>
+</kw>
+<status status="PASS" start="2025-10-31T11:56:20.023727" elapsed="3.938545"/>
+</kw>
+<kw name="Pagamento" owner="keywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:23.963897" level="INFO">Clicking element '//input[@id='btncalcshipping_maincart']'.</msg>
+<arg>locator=//input[@id='btncalcshipping_maincart']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:23.963487" elapsed="0.082982"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-10-31T11:56:25.047178" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-10-31T11:56:24.046774" elapsed="1.000813"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>locator=//input[@id='ship_maincart[email]']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2025-10-31T11:56:25.047928" elapsed="0.260609"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:25.309096" level="INFO">Clicking element '//a[@id='jsPlaceOrder_maincart']//span[@class='la-btn-v'][normalize-space()='Place Order']'.</msg>
+<arg>locator=//a[@id='jsPlaceOrder_maincart']//span[@class='la-btn-v'][normalize-space()='Place Order']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:25.308825" elapsed="0.078001"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-10-31T11:56:26.387773" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-10-31T11:56:25.387143" elapsed="1.000941"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:26.388675" level="INFO">Selecting options from selection list '//select[@id='paymethod_maincart']' by label Wire Transfer.</msg>
+<arg>//select[@id='paymethod_maincart']</arg>
+<arg>Wire Transfer</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2025-10-31T11:56:26.388351" elapsed="0.088271"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-31T11:56:26.477356" level="INFO">Clicking element '//a[@id='jsPlaceOrder_maincart']//span[@class='la-btn-v'][normalize-space()='Place Order']'.</msg>
+<arg>locator=//a[@id='jsPlaceOrder_maincart']//span[@class='la-btn-v'][normalize-space()='Place Order']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-31T11:56:26.477047" elapsed="0.079201"/>
+</kw>
+<status status="PASS" start="2025-10-31T11:56:23.962931" elapsed="2.593552"/>
+</kw>
+<status status="PASS" start="2025-10-31T11:56:00.824105" elapsed="25.732849"/>
+</test>
+<status status="PASS" start="2025-10-31T11:56:00.598407" elapsed="25.959956"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Teste" id="s1" pass="1" fail="0" skip="0">Teste</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-10-31T11:56:00.616686" level="ERROR">Error in file 'c:\Users\KaikyTf-Note\OneDrive\Arquivos\Arquivos pessoais\Cursos\Robot Framework - Unoeste\vs - dia2\main.robot' on line 7: Setting 'Test Setup' is not allowed in resource file.</msg>
+<msg time="2025-10-31T11:56:00.819298" level="ERROR">Error in file 'c:\Users\KaikyTf-Note\OneDrive\Arquivos\Arquivos pessoais\Cursos\Robot Framework - Unoeste\vs - dia2\teste.robot' on line 5: Setting 'Test Setup' is not allowed in resource file.</msg>
+<msg time="2025-10-31T11:56:00.820258" level="ERROR">Error in file 'c:\Users\KaikyTf-Note\OneDrive\Arquivos\Arquivos pessoais\Cursos\Robot Framework - Unoeste\vs - dia2\main.robot' on line 5: Error in file 'c:\Users\KaikyTf-Note\OneDrive\Arquivos\Arquivos pessoais\Cursos\Robot Framework - Unoeste\vs - dia2\teste.robot' on line 7: Resource file with 'Test Cases' section is invalid.</msg>
+<msg time="2025-10-31T11:56:00.887743" level="WARN">The geckodriver version (0.34.0) detected in PATH at C:\Users\KaikyTf-Note\AppData\Local\Programs\Python\Python314\Scripts\geckodriver.exe might not be compatible with the detected firefox version (144.0.2); currently, geckodriver 0.36.0 is recommended for firefox 144.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
